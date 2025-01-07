@@ -13,8 +13,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      
- - name: "translated-poetry"
+
+  - name: "translated-poetry"
     label: "Translated Poetry"
     folder: "content/translated-poetry"
     create: true
