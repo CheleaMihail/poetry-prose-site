@@ -11,6 +11,7 @@ body {
     width: 100%;
 }
 
+/* Sidebar styles */
 .sidebar {
     width: 250px;
     background-color: #222;
@@ -18,7 +19,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     height: 100vh;
-    position: fixed;
+    position: sticky;
 }
 
 .sidebar h2 {
@@ -58,23 +59,51 @@ body {
 
 
 .main-content {
-    margin-left: 250px;
-    flex-grow: 1;
+    width: 80%;
     display: flex;
     flex-direction: column;
     height: 100vh;
     box-sizing: border-box;
+    background-color: #fff;
+    overflow: auto;
+    margin: 0 auto;
+    border: solid 5px red;
 }
-
-header {
-    background-color: #f8f9fa;
+/* Header styles */
+.title-area {
+    width: 100%;
+    background-color: #222;
     padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
+.site-title {
     margin: 0;
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: 100;
+    color: #a2834e;
+    text-transform: uppercase;
+}
+.site-title a {
+ display: block;
+ text-decoration: none;
+}
+
+.site-title a:visited {
+    color: #a2834e;
+}
+
+.site-tagline{
+    line-height: 20px;
+    margin: 0px;
+    font-size: 20px;
+    color: #a2834e;
+    font-weight: 400;
 }
 
 .content {
@@ -89,3 +118,24 @@ footer {
     text-align: center;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.styled-hr {
+    border: none;
+    border-top: 2px solid #a2834e; /* Culoarea și grosimea liniei */
+    text-align: center;
+    margin: 20px 0; /* Spațiu sus și jos */
+    position: relative;
+  }
+  
+  .styled-hr::before {
+    content: "∞"; /* Simbolul infinitului */
+    font-size: 20px; /* Dimensiunea simbolului */
+    color: #a2834e; /* Culoarea simbolului */
+    background: #fff; /* Fundal alb (sau schimbă în funcție de fundalul tău) */
+    padding: 0 10px; /* Spațiu în jurul simbolului */
+    position: absolute;
+    top: -10px; /* Ajustează pentru poziționare */
+    left: 50%; /* Centrare pe orizontală */
+    transform: translateX(-50%);
+  }
+  

@@ -10,7 +10,6 @@
     <div class="container">
         <!-- Sidebar -->
         <nav class="sidebar">
-            <h2>Poetry & Prose</h2>
             <ul>
                 <li class="{{ if eq .RelPermalink "/original-poetry/" }}active{{ end }}">
                     <a href="/original-poetry/">Original Poetry</a>
@@ -30,8 +29,9 @@
 
         <!-- Main Content -->
         <div class="main-content">
-            <header>
-                <h1>{{ .Title }}</h1>
+            <header class="title-area">
+                <h1 class="site-title"><a href="/">A.M. Juster </a></h1>
+                <p class="site-tagline">Poet, Translator, Essayist</p>
             </header>
             <div class="content">
                 {{ block "main" . }}{{ end }}
