@@ -1,0 +1,9 @@
+[build]
+publish = "public"
+command = "hugo"
+
+[context.production.environment]
+HUGO_VERSION = "0.140.2"
+
+[context.production]
+command = "hugo --gc --minify"

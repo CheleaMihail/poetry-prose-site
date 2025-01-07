@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2>Poetry & Prose</h2>
+            <ul>
+                <li class="{{ if eq .RelPermalink "/original-poetry/" }}active{{ end }}">
+                    <a href="/original-poetry/">Original Poetry</a>
+                </li>
+                <li class="{{ if eq .RelPermalink "/translated-poetry/" }}active{{ end }}">
+                    <a href="/translated-poetry/">Translated Poetry</a>
+                </li>
+                <li class="{{ if eq .RelPermalink "/original-prose/" }}active{{ end }}">
+                    <a href="/original-prose/">Original Prose</a>
+                </li>
+                <li class="{{ if eq .RelPermalink "/translated-prose/" }}active{{ end }}">
+                    <a href="/translated-prose/">Translated Prose</a>
+                </li>
+            </ul>
+        </nav>
+        
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>{{ .Title }}</h1>
+            </header>
+            <div class="content">
+                {{ block "main" . }}{{ end }}
+            </div>
+            <footer>
+                <p>&copy; 2025 Your Poetry Site</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

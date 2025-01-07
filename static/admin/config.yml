@@ -1,0 +1,25 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "original-poetry"
+    label: "Original Poetry"
+    folder: "content/original-poetry"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      
+ - name: "translated-poetry"
+    label: "Translated Poetry"
+    folder: "content/translated-poetry"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
