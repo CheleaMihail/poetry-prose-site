@@ -12,7 +12,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "wysiwyg" }
+      - { label: "Body", name: "body", widget: "markdown", soft_wrap: true }
 
   - name: "translated-poetry"
     label: "Translated Poetry"
