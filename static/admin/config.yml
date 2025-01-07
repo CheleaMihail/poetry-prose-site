@@ -12,7 +12,13 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown", soft_wrap: true }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          soft_wrap: true,
+          hint: "Use two spaces at the end of a line to force a new line.",
+        }
 
   - name: "translated-poetry"
     label: "Translated Poetry"
@@ -20,4 +26,10 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          soft_wrap: true,
+          hint: "Use two spaces at the end of a line to force a new line.",
+        }
