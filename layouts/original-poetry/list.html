@@ -4,7 +4,6 @@
     {{ range .Pages }}  <!-- Iterează prin toate poeziile din folderul poetry -->
       <div class="poem">
         <h2>{{ .Title }}</h2>  <!-- Titlul poeziei -->
-        <p>{{ .Date }}</p>  <!-- Data poeziei -->
         <div>{{ .Content }}</div>  <!-- Conținutul poeziei -->
       </div>
     {{ end }}
