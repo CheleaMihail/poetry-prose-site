@@ -68,13 +68,22 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
-          name: "chapters"
-          label: "Chapters"
-          widget: "list"
+          name: "chapters",
+          label: "Chapters",
+          widget: "list",
           fields:
             [
-              { label: "Chapter Title", name: "chapter_title", widget: "string" },
+              {
+                label: "Chapter Title",
+                name: "chapter_title",
+                widget: "string",
+              },
               { label: "Body", name: "body", widget: "markdown" },
-              { label: "Excerpt Note", name: "excerpt_note", widget: "string", required: false }
-            ]
-      }
+              {
+                label: "Excerpt Note",
+                name: "excerpt_note",
+                widget: "string",
+                required: false,
+              },
+            ],
+        }
