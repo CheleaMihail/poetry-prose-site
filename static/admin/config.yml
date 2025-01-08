@@ -57,7 +57,12 @@ collections:
                 name: "chapter_title",
                 widget: "string",
               },
-              { label: "Body", name: "body", widget: "markdown" },
+              {
+                label: "Body",
+                name: "body",
+                widget: "markdown",
+                soft_wrap: true,
+              },
             ],
         }
 
@@ -78,12 +83,18 @@ collections:
                 name: "chapter_title",
                 widget: "string",
               },
-              { label: "Body", name: "body", widget: "markdown" },
+              {
+                label: "Body",
+                name: "body",
+                widget: "markdown",
+                soft_wrap: true,
+              },
               {
                 label: "Excerpt Note",
                 name: "excerpt_note",
                 widget: "string",
                 required: false,
+                hint: "This note will appear at top of the chapter, before the title.",
               },
             ],
         }
