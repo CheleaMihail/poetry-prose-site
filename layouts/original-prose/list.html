@@ -1,12 +1,16 @@
-{{ define "main" }}
-<div class="poetry-container">
-    <h1>{{ .Title }}</h1>  <!-- Titlul paginii -->
-    {{ range .Pages }}  <!-- Iterează prin toate poeziile din folderul poetry -->
-      <div class="poem">
-        <h2>{{ .Title }}</h2>  <!-- Titlul poeziei -->
-        <p>{{ .Date }}</p>  <!-- Data poeziei -->
-        <div>{{ .Content }}</div>  <!-- Conținutul poeziei -->
-      </div>
-    {{ end }}
+<div class="prose-container">
+  <h1>{{ .Title }}</h1>
+  
+  {{ range .Pages }}
+    <div class="prose-item">
+      <h2>{{ .Title }}</h2>
+      {{ with .Params.chapters }}
+        <ul>
+          {{ range . }}
+            <li>{{ .chapter_title }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  {{ end }}
 </div>
-{{ end }}
