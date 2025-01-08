@@ -119,7 +119,7 @@ h1, h2, h3 {
 }
 
 .content {
-    flex-grow: 1;
+    flex:1 1 auto;
     padding: 20px 30px;
 }
 
@@ -161,4 +161,50 @@ footer {
     font-size: 14px;
     font-weight: bold;
   }
+
+  .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #a2834e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .back-button:hover {
+    background-color: #8b6f3c;
+  }
+/* Syles for original prose page */
+  .prose-container {
+
+  }
+
+  .prose-item {
+    margin-bottom: 20px;
+  }
+  
+  .prose-item h2 {
+    font-size: 24px;
+    color: #8b6f3c;
+  }
+  
+  .prose-item h2 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s;
+  }
+  
+  .prose-item h2 a:hover {
+    color: #c29b57;
+  }
+  
+  .prose-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }
+  
   

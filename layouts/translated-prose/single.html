@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="prose-container">
-  <a href="/original-prose" class="back-button">← Back to Prose List</a>
+  <a href="/translated-prose" class="back-button">← Back to Prose List</a>
 
   <h1>{{ .Title }}</h1>
 
@@ -8,6 +8,9 @@
     <div class="chapters">
       {{ range .Params.chapters }}
       <div class="chapter">
+        {{ if .excerpt_note }}
+        <p class="excerpt-note"><em>{{ .excerpt_note }}</em></p>
+      {{ end }}
         <h2>{{ .chapter_title }}</h2>
         <div>{{ .body }}</div>
       </div>

@@ -1,7 +1,5 @@
 {{ define "main" }}
 <div class="prose-container">
-  <h1>{{ .Title }}</h1>
-  
   {{ range .Pages }}
   <div class="prose-item">
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
