@@ -33,7 +33,12 @@ collections:
           soft_wrap: true,
           hint: "Use two spaces at the end of a line to force a new line.",
         }
-        {label: "Translated From", name: "translated_from", widget: "string", hint: "Language of the original poem. Ex. Translated from Japanese."}
+      - {
+          label: "Translated From",
+          name: "translated_from",
+          widget: "string",
+          hint: "Language of the original poem. Ex. Translated from Japanese.",
+        }
 
   - name: "original-prose"
     label: "Original Prose"
@@ -41,7 +46,17 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Chapters", name: "chapters", widget: "list", fields: [
-          { label: "Chapter Title", name: "chapter_title", widget: "string" },
-          { label: "Body", name: "body", widget: "markdown" }
-        ]}
+      - {
+          label: "Chapters",
+          name: "chapters",
+          widget: "list",
+          fields:
+            [
+              {
+                label: "Chapter Title",
+                name: "chapter_title",
+                widget: "string",
+              },
+              { label: "Body", name: "body", widget: "markdown" },
+            ],
+        }
