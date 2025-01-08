@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="prose">
+    <h1>{{ .Title }}</h1>
+    
+    {{ with .Params.chapters }}
+      <div class="chapters">
+        {{ range . }}
+          <div class="chapter">
+            <h2>{{ .chapter_title }}</h2>
+            <div class="content">
+              {{ .body | markdownify }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end}}
+  

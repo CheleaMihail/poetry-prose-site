@@ -3,16 +3,12 @@
   <h1>{{ .Title }}</h1>
   
   {{ range .Pages }}
-    <div class="prose-item">
-      <h2>{{ .Title }}</h2>
-      {{ with .Params.chapters }}
-        <ul>
-          {{ range . }}
-            <li>{{ .chapter_title }}</li>
-          {{ end }}
-        </ul>
-      {{ end }}
-    </div>
-  {{ end }}
+  <div class="prose-item">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Summary }}</p>
+  </div>
+{{ else }}
+  <p>No prose available.</p>
+{{ end }}
 </div>
 {{ end }}

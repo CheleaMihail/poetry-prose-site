@@ -1,6 +1,6 @@
 ---
 date: 2025-01-07T16:21:16+02:00
-draft: true
+draft: false
 title: My First Prose
 chapters:
   - chapter_title: Chapter 1
