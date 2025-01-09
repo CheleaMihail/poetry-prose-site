@@ -3,6 +3,7 @@
     {{ $originalPoetryPages := where .Site.Pages "Section" "original-poetry" }}
     {{ $total := sub (len $originalPoetryPages) 1 }}
     {{ range $index, $page := $originalPoetryPages }}
+    {{ if not $page.IsSection }}
       <div class="poem">
         <h2>{{ $page.Title }}</h2>
         <div>{{ $page.Content }}</div>
@@ -15,6 +16,7 @@
         <div class="line"></div>
       </div>
       {{ end }}
+    {{ end }} 
     {{ end }}
   </div>
 {{ end }}
