@@ -2,14 +2,14 @@
 <div class="prose-container">
   <a href="/original-prose" class="back-button">← Back to Prose List</a>
 
-  <h1>{{ .Title }}</h1>
+  <h2>{{ .Title }}</h2>
 
   {{ if .Params.chapters }}
     <div class="chapters">
       {{ range .Params.chapters }}
       <div class="chapter">
-        <h2>{{ .chapter_title }}</h2>
-        <div>{{ .body }}</div>
+        <h3>{{ .chapter_title }}</h3>
+        <div>{{ .body | markdownify }}</div>
       </div>
       {{ end }}
     </div>

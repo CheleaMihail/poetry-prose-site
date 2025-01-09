@@ -1,3 +1,3 @@
 ---
-title: This is my website
+title: Poetry and Prose
 ---

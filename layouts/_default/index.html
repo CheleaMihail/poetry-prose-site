@@ -1,12 +1,20 @@
 {{ define "main" }}
-<main>
-    <p>This is the homepage of the site.</p>
-    <section>
-        <h3>Featured Poems</h3>
-        <ul>
-            <li><a href="/poetry/poem1">Poem 1</a></li>
-            <li><a href="/poetry/poem2">Poem 2</a></li>
-        </ul>
-    </section>
-</main>
+  <div class="poetry-container">
+    {{ $originalPoetryPages := where .Site.Pages "Section" "original-poetry" }}
+    {{ $total := sub (len $originalPoetryPages) 1 }}
+    {{ range $index, $page := $originalPoetryPages }}
+      <div class="poem">
+        <h2>{{ $page.Title }}</h2>
+        <div>{{ $page.Content }}</div>
+      </div>
+
+      {{ if ne $index $total }}
+      <div class="custom-hr">
+        <div class="line"></div>
+        <div class="symbol">∞</div>
+        <div class="line"></div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
 {{ end }}

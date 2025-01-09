@@ -1,12 +1,5 @@
-baseURL = "http://localhost:1313/"
-
 [permalinks]
-home = "/"
-original-poetry = "/original-poetry/:slug/"
+original-poetry = "/:slug/"
 translated-poetry = "/translated-poetry/:slug/"
 original-prose = "/original-prose/:slug/"
 translated-prose = "/translated-prose/:slug/"
-
-[params]
-  sidebar = true
-

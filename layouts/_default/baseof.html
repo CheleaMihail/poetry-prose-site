@@ -12,8 +12,8 @@
         <!-- Sidebar -->
         <nav class="sidebar">
             <ul>
-                <li class="{{ if eq .RelPermalink "/original-poetry/" }}active{{ end }}">
-                    <a href="/original-poetry/">Original Poetry</a>
+                <li class="{{ if eq .RelPermalink "/" }}active{{ end }}">
+                    <a href="/">Original Poetry</a>
                 </li>
                 <li class="{{ if eq .RelPermalink "/translated-poetry/" }}active{{ end }}">
                     <a href="/translated-poetry/">Translated Poetry</a>
@@ -25,23 +25,24 @@
                     <a href="/translated-prose/">Translated Prose</a>
                 </li>
             </ul>
-        </nav>
-        
-
+        </nav>       
         <!-- Main Content -->
         <div class="main-content">
             <header class="title-area">
-                <h1 class="site-title"><a href="/">A.M. Juster </a></h1>
+                <button class="burger-menu" onclick="toggleMenu()">☰</button>
+                <h1 class="site-title"><a href="/">Author Name</a></h1>
                 <p class="site-tagline">Poet, Translator, Essayist</p>
             </header>
             <div class="content">
                 {{ block "main" . }}{{ end }}
             </div>
             <footer>
-                <p>&copy; 2025 Your Poetry Site</p>
+                <p><span>©</span> 2025 Your Site</p>
             </footer>
         </div>
     </div>
+    <div class="overlay" onclick="closeMenu()"></div>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="{{ "/js/script.js" | relURL }}"></script>
 </body>
 </html>

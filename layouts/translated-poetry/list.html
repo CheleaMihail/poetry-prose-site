@@ -1,14 +1,22 @@
 {{ define "main" }}
 <div class="poetry-container">
-    {{ range .Pages }}
+    {{ $total := sub (len .Pages) 1 }}
+    {{ range $index, $page := .Pages }}
       <div class="poem">
-        <h2>{{ .Title }}</h2>
-        <div>{{ .Content }}</div>
-        {{ with .Params.translated_from }}
+        <h2>{{ $page.Title }}</h2>
+        <div>{{ $page.Content}}</div>
+        {{ with $page.Params.translated_from }}
         <p class="poem-translated">{{ . }}</p>
-      {{ end }}
+        {{ end }}
       </div>
-      <hr class="styled-hr">
+
+      {{ if ne $index $total }}
+      <div class="custom-hr">
+        <div class="line"></div>
+        <div class="symbol">∞</div>
+        <div class="line"></div>
+      </div>
+      {{ end }}
     {{ end }}
 </div>
 {{ end }}

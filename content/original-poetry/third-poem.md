@@ -20,7 +20,7 @@ Frets between bites, *Where’s my moon?*
 Child even watches a favorite cartoon.  
 But young mind wanders: *Where’s my moon?*
 
-Like a broken record stuck on one tune,    
+Like a broken record stuck on one tune,  
 Child keeps asking, *Where’s my moon?*
 
 Child pretends all afternoon  
