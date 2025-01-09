@@ -2,9 +2,12 @@
 title: My first translated poem
 translated_from: (Translated from Spanish)
 ---
-Acesta este conținutul poeziei.  
-Acesta este conținutul poeziei.  
+This is the first verse  
+This is the second verse  
+This is the third verse  
+This is the fourth verse
 
-
-Acesta este conținutul poeziei.  
-Acesta este conținutul poeziei.  
+This is the fifth verse  
+This is the sixth verse  
+This is the seventh verse  
+This is the eighth verse
