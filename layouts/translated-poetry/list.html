@@ -3,11 +3,13 @@
     {{ $total := sub (len .Pages) 1 }}
     {{ range $index, $page := .Pages }}
       <div class="poem">
-        <h2>{{ $page.Title }}</h2>
-        <div>{{ $page.Content}}</div>
-        {{ with $page.Params.translated_from }}
-        <p class="poem-translated">{{ . }}</p>
+        {{ with $page.Params.details }}
+        <p class="poem-details">
+          {{ . | safeHTML | markdownify }}
+        </p>
         {{ end }}
+        <h2>{{ $page.Title }}</h2>
+        <div>{{ $page.Content }}</div>
       </div>
 
       {{ if ne $index $total }}

@@ -17,7 +17,7 @@ collections:
           name: "body",
           widget: "markdown",
           soft_wrap: true,
-          hint: "Use two spaces at the end of a line to force a new line.",
+          hint: "Details about original poem. This details will be shown in a paragraph above title.",
         }
 
   - name: "translated-poetry"
@@ -27,17 +27,17 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
+          label: "Details",
+          name: "details",
+          widget: "markdown",
+          hint: "Details about original poem. This details will be shown in a paragraph above title.",
+        }
+      - {
           label: "Body",
           name: "body",
           widget: "markdown",
           soft_wrap: true,
-          hint: "Use two spaces at the end of a line to force a new line.",
-        }
-      - {
-          label: "Translated From",
-          name: "translated_from",
-          widget: "string",
-          hint: "Language of the original poem. Ex. Translated from Japanese.",
+          hint: "Use Shift+Enter at the end of a line to force a new line but not paragraph.",
         }
 
   - name: "original-prose"
