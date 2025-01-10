@@ -1,42 +1,14 @@
 ---
-title: YOU SAY YOU WANT A REVOLUTION (or Ecclesiastes 1:9)
+title: Israel
 ---
-Once tradition stood as sentry,\
-Unconditionally barring entry\
-To the portals of the gentry,
+At night, the parchment burned. Above the roar\
+The letters soared back to their source and turned\
+Into a field of desert flowers, red as flame,\
+The scattered letters gathered into names.
 
 
 
-So the people breached the portals,\
-Smashed the portals, smashed the mortals\
-That stood guard over the portals,
-
-
-
-And displaced the ancient idols\
-And effaced the ancient titles —\
-Titles, idols, to the gentry being vital.
-
-
-
-After wanton desecration\
-And relentless condemnation\
-Leaders issued proclamations
-
-
-
-That plebeians must have sentries\
-To protect them from the gentry\
-Who, duplicitous, seek entry,
-
-
-
-And they gave the people titles\
-(With the license to be idle) —\
-An accommodated people being vital.
-
-
-
-Thus the uprising evolved.\
-Manifestos thus dissolved.\
-Revolutions — they revolve.
+We were the land’s before the land was ours,\
+Before the dew first settled on the stones\
+Our fathers consecrated with their bones,\
+And morning knew the names of many flowers.
