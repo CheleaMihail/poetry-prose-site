@@ -1,11 +1,14 @@
 ---
-title: My first poem
+title: First poem
 ---
-Acesta este conținutul poeziei.\
-Acesta este conținutul poeziei.  
+This is the first verse  \
+This is the second verse
 
-Acesta este conținutul poeziei.\
-Acesta este conținutul poeziei.
+This is the third verse  \
+This is the fourth verse
 
-Aceasta este continut poeziei.\
-Acesta este continut poeziei.
+This is the fifth verse  \
+This is the sixth verse
+
+This is the seventh verse  \
+This is the eighth verse
