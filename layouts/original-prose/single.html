@@ -4,13 +4,11 @@
 
   <h2>{{ .Title }}</h2>
 
-  {{ if .Params.body }}
-    <!-- Display the full prose body -->
+  {{ if .Content }}
     <div class="full-prose">
-      {{ .Params.body | markdownify }}
+      {{ .Content }}
     </div>
   {{ else if .Params.chapters }}
-    <!-- Display chapters -->
     <div class="chapters">
       {{ range .Params.chapters }}
       <div class="chapter">
@@ -20,7 +18,6 @@
       {{ end }}
     </div>
   {{ else }}
-    <!-- Display message if neither body nor chapters are available -->
     <p>No content available for this prose.</p>
   {{ end }}
 </div>
