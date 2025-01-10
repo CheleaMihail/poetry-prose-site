@@ -1,33 +1,52 @@
 ---
-title: A Blunt Poem, On the Occasion of the Legalization of Marijuana in Colorado
+title: Danse Macabre
 ---
-I was smoking marijuana\
-‘cross border, in Tijuana,\
-Where the grass — first among flora\
-And the dealers among fauna.
+Epigraph: There’s none who dies.\
+I was there. I saw them rise. 
 
-I stood smoking marijuana,\
-In that humid, hazy sauna,\
-Clad in sandals and fedora, \
-While I waited for nirvana.
 
-\
-I sat smoking marijuana\
-And I counted the iguanas\
-As I wondered why the Torah\
-Made no mention of Madonna.
 
-At the lengthening of shadows,\
-Having smoked my marijuana\
-Hungry as a desperado,\
-I consumed ten avocados.
+This night the fiddle creaks, and the flute\
+Reflects the owl’s plaintive hoot\
+When the call to moonlit dancing's spread\
+O’er the osseous silence of the dead.
 
-To be honest, I felt hollow\
-Smoking reefer in Tijuana.\
-So I shipped ten avocados\
-To my flat in Colorado
 
-And discovered--holy moly!\
-I had just made guacamole.\
-Tijuana marijuana –\
-I don’t think I ever wanna.
+
+By the gravestone something whispers.\
+It’s alive! — A flash of whiskers\
+Of a frightened cemetery mouse\
+Who this night darts from his house.
+
+
+
+Now we hear the first bell chime,\
+Chime, chime, chime, chime, chime…\
+On the echoing twelfth time\
+Skeletons sit up and climb
+
+
+
+Into the dancehall of the night,\
+All shades of chalk and pearl and white.\
+The marauder, child, pope and king\
+Dance together, dance and swing
+
+
+
+On jerky bones that click and clatter,\
+Shaking skulls that grin and chatter —\
+Imitations of maracas\
+In the swaying danse macabre.
+
+
+
+Now the rooster crows his first,\
+Dancers hurriedly disperse,\
+Climbing down into their beds,\
+To give weary bones some rest.
+
+
+
+Epitaph: There’s none who dies.\
+I was there. I saw them rise.
