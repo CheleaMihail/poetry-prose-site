@@ -47,6 +47,14 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          soft_wrap: true,
+          required: false,
+          hint: "Use this field if the prose has no chapters.",
+        }
+      - {
           label: "Chapters",
           name: "chapters",
           widget: "list",
@@ -64,6 +72,7 @@ collections:
                 soft_wrap: true,
               },
             ],
+          hint: "Use this field if the prose has chapters. Leave blank if not applicable.",
         }
 
   - name: "translated-prose"
