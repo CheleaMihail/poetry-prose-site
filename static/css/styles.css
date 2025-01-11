@@ -23,6 +23,16 @@ h3 {
   font-family: "Playfair Display", serif;
 }
 
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .container {
   box-sizing: border-box;
   padding: 30px 0;
@@ -107,16 +117,7 @@ h3 {
   margin: 0;
   font-size: 48px;
   font-weight: 100;
-  color: #a2834e;
   text-transform: uppercase;
-}
-.site-title a {
-  display: block;
-  text-decoration: none;
-}
-
-.site-title a:visited {
-  color: #a2834e;
 }
 
 .site-tagline {
@@ -186,11 +187,18 @@ footer p span {
   text-decoration: none;
   border-radius: 5px;
   font-size: 14px;
+  line-height: 1; /* Ajustează înălțimea liniei pentru a se potrivi */
+  vertical-align: middle; /* Aliniere verticală */
 }
 
 .back-button:hover {
   background-color: #8b6f3c;
 }
+
+.back-button span {
+  vertical-align: middle;
+}
+
 /* Syles for original prose page */
 .prose-container {
   color: #5a4d3b;
