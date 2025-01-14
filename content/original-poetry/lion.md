@@ -1,25 +1,45 @@
 ---
-title: Lion
+title: After the Wedding
 ---
 
 
 
 
 
-The
-lion limps ahead, his crown a ragged mess
+From the
+feast hall, dim and vacant,
 
-Of thorns and mane and blood, duress
+Where the plates are piled high,
 
-A lion only can withstand still waiting for him.
+Where celebratory raiment,
 
-The vultures, drops above, are waiting for him --
+Soaked in wine, is left to dry;
 
-Why not? He'll make for proud, majestic
-carrion. 
+Where the wedding programs settled
 
-I limp majestic, proud, and carry on,
+(As did toppled-over chairs)
 
-My mane, with winter frosted. 
+To the ground with pockmarks freckled;
 
-I will be limping still when the vultures drop, exhausted.
+Where the cleaning-girl despairs;
+
+ 
+
+You’ll infer a
+celebration
+
+For a bride and for a groom,
+
+You’ll see proofs of their elation
+
+In this mirrored, gilded room.
+
+But I see little relevance
+
+In this second-hand tableau:
+
+From the dried-up bits of cheese below
+
+From the brassy chandeliers above
+
+Nothing will you learn of love.
