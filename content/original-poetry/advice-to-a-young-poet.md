@@ -1,5 +1,5 @@
 ---
-title: Advice to a Young Poet
+title: To a Young Poet
 ---
 
 
