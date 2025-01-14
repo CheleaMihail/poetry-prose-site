@@ -1,5 +1,5 @@
 ---
-title: A Blunt Poem, On the Occasion of the Legalization of Marijuana in Colorado
+title: "On the Occasion of the Legalization of Marijuana in Colorado: Blunt Thoughts"
 ---
 ```
 I was smoking marijuana 
@@ -31,4 +31,6 @@ And discovered--holy moly!
 I had just made guacamole. 
 Tijuana marijuana – 
 I don’t think I'll ever wanna.
+
+2014
 ```
