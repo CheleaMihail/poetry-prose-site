@@ -1,5 +1,5 @@
 ---
-title: The Penny Is Lost
+title: The Penny Is Lost by Emil Bezverkhny
 chapters:
   - chapter_title: Twenty One
     body: >-
