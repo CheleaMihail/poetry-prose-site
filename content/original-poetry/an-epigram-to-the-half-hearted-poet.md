@@ -1,5 +1,5 @@
 ---
-title: An epigram to the half-hearted poet
+title: "An Epigram: To the Half-Hearted Poet"
 ---
 
 
