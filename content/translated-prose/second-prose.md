@@ -1,7 +1,7 @@
 ---
 title: From The Penny Is Lost by Emil Bezverkhny
 chapters:
-  - chapter_title: Twenty One
+  - chapter_title: "Chapter 3: Twenty One"
     body: >-
       
 
