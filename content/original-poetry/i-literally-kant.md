@@ -1,5 +1,5 @@
 ---
-title: I literally Kant
+title: I Literally Kant
 ---
 Already, I liked you *a priori*.
 
