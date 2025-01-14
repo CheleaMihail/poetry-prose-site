@@ -1,12 +1,7 @@
 ---
 title: Divine Cocktail
 ---
-
-
-
-
-
-Eve,unstable and distraught,
+Eve, unstable and distraught,
 
 Said "I'm going on a bender!"
 
