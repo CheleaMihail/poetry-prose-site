@@ -1,8 +1,6 @@
 ---
 title: A Blunt Poem, On the Occasion of the Legalization of Marijuana in Colorado
 ---
-
-
 ```
 I was smoking marijuana 
 Across the border, in Tijuana, 
@@ -19,8 +17,7 @@ And I counted the iguanas
 As I wondered why the Torah 
 Made no mention of Madonna.
 
-At the lengthening of
-shadows, 
+At the lengthening of shadows, 
 Having smoked my marijuana 
 Hungry as a desperado, 
 I consumed ten avocados.
@@ -34,5 +31,4 @@ And discovered--holy moly!
 I had just made guacamole. 
 Tijuana marijuana – 
 I don’t think I'll ever wanna.
-
 ```
