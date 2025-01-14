@@ -1,5 +1,5 @@
 ---
-title: 6 Haikus
+title: Haikus
 ---
 **A rejected proposal**
 
