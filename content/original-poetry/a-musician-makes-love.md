@@ -1,12 +1,12 @@
 ---
-title: "A musician makes love "
+title: "A Musician Makes Love "
 ---
-*Misterioso, scherzando, andante grazioso, cantabile, piu mosso, allegro ma non troppo, accelerando, con anima, con forza, vivace, marcato, con fuoco, il piu forte possibile! Maestoso! Tutti!
+*Misterioso, scherzando, andante grazioso, cantabile, piu mosso, allegro ma non troppo, accelerando, con anima, con forza, vivace, marcato, con fuoco, il piu forte possibile! Maestoso! Tutti!*
 
-Fermata.
+*Fermata.*
 
-Dolce, calando, smorzando, morendo.
+*Dolce, calando, smorzando, morendo.*
 
-Bravo!* 
+*Bravo!*
 
 *Bis!*
