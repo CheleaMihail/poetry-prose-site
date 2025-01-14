@@ -1,5 +1,5 @@
 ---
-title: (The stream of the golden hued honey poured forth from the bottle...)
+title: The stream of the golden hued honey poured forth from the bottle...
 details: |-
   Osip Mandelstam \
   **Золотистого меда струя из бутылки текла…**\
