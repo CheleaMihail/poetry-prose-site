@@ -3,7 +3,11 @@ title: Warum
 ---
 In the darkest hour of the night
 He repeats his father’s sacred rite,
+
+
 Pecks his sleepy wife and fixes his comb,
+
+
 Dismisses fatigue and struts from his home.
 
 He clears his throat and yells into the night,
