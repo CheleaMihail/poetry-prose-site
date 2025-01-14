@@ -1,5 +1,5 @@
 ---
-title: Lanyards
+title: Lanyards (from Fate and Chance)
 ---
 
 
