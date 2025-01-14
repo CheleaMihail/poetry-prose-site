@@ -1,5 +1,5 @@
 ---
-title: Chicken and Piano
+title: Chicken and Piano (from Fate and Chance)
 ---
 Whenever the Washington cutthroat of House of Cards renown Frank Underwood needed to recede from the world, he traded the crisp linens of elite DC and stepped over the threshold of Freddy’s BBQ Joint to roll up his sleeves and gorge on ribs. Secluded in his booth he enjoyed the double incognito protection from the simple fact that nobody would ever think to look there for him.
 
