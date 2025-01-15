@@ -1,7 +1,7 @@
 ---
 date: 2025-01-07T16:21:16+02:00
 draft: false
-title: My Favorite Painting
+title: My Favorite Painting (from Fate and Chance)
 chapters: []
 ---
 On the second floor of the National Gallery of Art the Old Dutch and Flemish Masters murmur in their native tongues. You walk up to the fountain underneath the rotunda, you turn left and in the corridor you pass two galleries without looking in. At the third, you glance inside to see if anybody is walking toward you, you let them pass and then you close your eyes and take some measured steps, aiming directly at the back wall and one painting to the left. 

@@ -1,7 +1,7 @@
 ---
-title: (Odi et) Amo
+title: Odi et Amo
 ---
-I could pretend (.)\
+I could pretend \
 I love you not\
 But don’t intend\
 To leave a lot\
