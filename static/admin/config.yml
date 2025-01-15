@@ -19,6 +19,9 @@ collections:
           soft_wrap: true,
           hint: "Details about original poem. This details will be shown in a paragraph above title.",
         }
+    sortable_fields:
+      - "title"
+      - "date"
 
   - name: "translated-poetry"
     label: "Translated Poetry"
