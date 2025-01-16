@@ -4,6 +4,7 @@ details: |-
   Osip Mandelstam \
   **Золотистого меда струя из бутылки текла…**\
   1917
+order: 2
 ---
 The stream of the golden hued honey poured forth from the bottle\
 So viscously, slowly, the housewife had time to remark:\
