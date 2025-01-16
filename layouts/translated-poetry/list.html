@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div class="poetry-container">
-    {{ $total := sub (len .Pages) 1 }}
-    {{ range $index, $page := .Pages }}
+  {{ $translatedPoetryPages := where .Site.Pages "Section" "translated-poetry" }}
+  {{ $sortedPages := sort $translatedPoetryPages "Params.order" "desc" }}
+  {{ $total := sub (len $sortedPages) 1 }}
+  {{ range $index, $page := $sortedPages }}
       <div class="poem">
         {{ with $page.Params.details }}
         <p class="poem-details">
