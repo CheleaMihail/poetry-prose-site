@@ -3,3 +3,6 @@ original-poetry = "/:slug/"
 translated-poetry = "/translated-poetry/:slug/"
 original-prose = "/original-prose/:slug/"
 translated-prose = "/translated-prose/:slug/"
+
+[outputs]
+home = ["HTML", "RSS", "Sitemap"]
