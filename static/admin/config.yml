@@ -96,6 +96,17 @@ collections:
             ],
           hint: "Use this field if the prose has chapters. Leave blank if not applicable.",
         }
+      - {
+          label: "Order",
+          name: "order",
+          widget: "number",
+          default: 1,
+          hint: "Note: Proses with higher order will appear above proses with lower order. If proses have the same order number, they will be sorted alphabetically.",
+        }
+    sortable_fields:
+      - "title"
+      - "order"
+    summary: "{{title}} (Order: {{order}})"
 
   - name: "translated-prose"
     label: "Translated Prose"
@@ -129,3 +140,14 @@ collections:
               },
             ],
         }
+      - {
+          label: "Order",
+          name: "order",
+          widget: "number",
+          default: 1,
+          hint: "Note: Proses with higher order will appear above proses with lower order. If proses have the same order number, they will be sorted alphabetically.",
+        }
+    sortable_fields:
+      - "title"
+      - "order"
+    summary: "{{title}} (Order: {{order}})"

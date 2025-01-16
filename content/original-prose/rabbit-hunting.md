@@ -1,5 +1,6 @@
 ---
 title: Rabbit Hunting (from Fate and Chance)
+order: 1
 ---
 The riders in front of me were treated to a piercing, reverberating, existential yawp. We were inside the tunnel of the Arlington Memorial Bridge, midway through the bicycle leg of a triathlon, and I had taken account of how many miles I had to go before I could sleep. Compounding the suffering was a curious sight: hundreds of riders on high-performance, titanium space-age machines, and one eccentric fellow, your humble author, on a City Bike accessorized with iron cage for the bicycle lock, pedaling uphill the whole race. 
 
