@@ -684,4 +684,5 @@ chapters:
 
       Jews. He started with Mihel, his neighbor.
     excerpt_note: ""
+order: 1
 ---
