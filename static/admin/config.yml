@@ -50,6 +50,17 @@ collections:
           soft_wrap: true,
           hint: "Use Shift+Enter at the end of a line to force a new line but not paragraph.",
         }
+      - {
+          label: "Order",
+          name: "order",
+          widget: "number",
+          default: 1,
+          hint: "Note: Poems with higher order will appear above poems with lower order. If poems have the same order number, they will be sorted alphabetically.",
+        }
+    sortable_fields:
+      - "title"
+      - "order"
+    summary: "{{title}} (Order: {{order}})"
 
   - name: "original-prose"
     label: "Original Prose"
