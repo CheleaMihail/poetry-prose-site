@@ -4,6 +4,7 @@
   {{ $sortedPages := sort $translatedPoetryPages "Params.order" "desc" }}
   {{ $total := sub (len $sortedPages) 1 }}
   {{ range $index, $page := $sortedPages }}
+  {{ if not $page.IsSection }}
       <div class="poem">
         {{ with $page.Params.details }}
         <p class="poem-details">
@@ -14,13 +15,14 @@
         <div>{{ $page.Content }}</div>
       </div>
 
-      {{ if ne $index $total }}
+      {{ if ne $index (sub $total 1) }}
       <div class="custom-hr">
         <div class="line"></div>
         <div class="symbol">∞</div>
         <div class="line"></div>
       </div>
       {{ end }}
+    {{ end }}
     {{ end }}
 </div>
 {{ end }}
