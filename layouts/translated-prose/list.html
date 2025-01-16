@@ -1,12 +1,15 @@
 {{ define "main" }}
 <div class="prose-container">
-  {{ range .Pages }}
+  {{ $translatedProsePages := where .Site.Pages "Section" "translated-prose" }}
+  {{ $sortedPages := sort $translatedProsePages "Params.order" "desc" }}
+  {{ range $sortedPages }}
+    {{ if ne .Title "Translated-Proses" }}
     <div class="prose-item">
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Summary }}</p>
     </div>
+    {{ end }}
   {{ else }}
-    <p>No translated prose available.</p>
+    <p>No prose available.</p>
   {{ end }}
 </div>
 {{ end }}
