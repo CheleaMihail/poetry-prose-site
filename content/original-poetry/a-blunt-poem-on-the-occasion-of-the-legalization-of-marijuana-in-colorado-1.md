@@ -1,5 +1,6 @@
 ---
 title: "On the Occasion of the Legalization of Marijuana in Colorado: Blunt Thoughts"
+order: 2
 ---
 ```
 I was smoking marijuana 
