@@ -29,12 +29,7 @@ collections:
     sortable_fields:
       - "title"
       - "order"
-    meta:
-      fields:
-        - label: "Title"
-          name: "title"
-        - label: "Order"
-          name: "order"
+    summary: "{{title}} (Order: {{order}})"
 
   - name: "translated-poetry"
     label: "Translated Poetry"
