@@ -17,11 +17,24 @@ collections:
           name: "body",
           widget: "markdown",
           soft_wrap: true,
-          hint: "Details about original poem. This details will be shown in a paragraph above title.",
+          hint: "Use Shift+Enter at the end of a line to force a new line but not paragraph.",
+        }
+      - {
+          label: "Order",
+          name: "order",
+          widget: "number",
+          default: 1,
+          hint: "Note: Poems with higher order will appear above poems with lower order. If poems have the same order number, they will be sorted alphabetically.",
         }
     sortable_fields:
       - "title"
-      - "date"
+      - "order"
+    meta:
+      fields:
+        - label: "Title"
+          name: "title"
+        - label: "Order"
+          name: "order"
 
   - name: "translated-poetry"
     label: "Translated Poetry"
