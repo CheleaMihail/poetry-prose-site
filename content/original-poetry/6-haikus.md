@@ -1,6 +1,6 @@
 ---
 title: Haikus
-order: 1
+order: 0
 ---
 **A rejected proposal**
 
