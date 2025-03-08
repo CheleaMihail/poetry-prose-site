@@ -1,6 +1,6 @@
 ---
 title: Psalm 23
-order: 1
+order: 0
 ---
 
 
